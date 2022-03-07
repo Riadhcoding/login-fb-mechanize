@@ -16,7 +16,7 @@ br.form['email'] = 'your email'
 br.form['pass'] = 'your password'
 response = br.submit() # print(response)
 # https://mbasic.facebook.com/login/save-device/  for login successfully
-if 'save-device' in geturl():
+if 'save-device' in response.geturl():
     print('login successfully')
 # https://mbasic.facebook.com/login/?email=       for Wrong password
 else:
