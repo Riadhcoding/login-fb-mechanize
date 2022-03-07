@@ -6,6 +6,10 @@ login in facebook account with mechanize library in python 3
 pip install mechanize
 ``
 
+``
+git clone https://github.com/python-life/login-fb-mechanize
+``
+
 
 ``
 cd login-fb-mechanize
